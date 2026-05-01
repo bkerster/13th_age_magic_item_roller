@@ -2,6 +2,8 @@
 
 A Streamlit web app for randomly selecting magic items from the 13th Age RPG (1st edition). Filter by tier, item category, and character class, then roll to get a random item from the matching pool.
 
+**[Launch the app](https://13thageroller.streamlit.app/)**
+
 ## Features
 
 - **Tier filter** — narrow results to Adventurer, Champion, and/or Epic tier items

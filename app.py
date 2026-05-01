@@ -167,7 +167,9 @@ with col_main:
         st.warning("No items match your current filters.")
     elif roll_button or "current_item" not in st.session_state:
         if filtered:
-            st.session_state.current_item = random.choice(filtered)
+            current = st.session_state.get("current_item")
+            pool = [i for i in filtered if i is not current] if len(filtered) > 1 else filtered
+            st.session_state.current_item = random.choice(pool)
 
     if "current_item" in st.session_state and filtered:
         item = st.session_state.current_item
