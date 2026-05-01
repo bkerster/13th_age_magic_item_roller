@@ -88,6 +88,20 @@ def append_text(item: dict, text: str) -> None:
         item["description"] = (item["description"] + " " + text).strip()
 
 
+def classify_weapon(item: dict) -> str:
+    """Classify a weapon item from the type tag in the first part of its description."""
+    tag = item["description"][:80].lower()
+    if re.search(r'\btwo.handed\b', tag) or "greatsword" in tag:
+        return "weapons-2h"
+    if re.search(r'\bone.handed\b', tag):
+        return "weapons-1h"
+    if re.search(r'\branged\b', tag) or "longbow" in tag or "bow" in tag:
+        return "weapons-ranged"
+    if re.search(r'\bany weapon\b', tag):
+        return "weapons-any"
+    return "weapons-melee"
+
+
 def parse(docx_path: Path) -> list[dict]:
     doc = Document(str(docx_path))
     items: list[dict] = []
@@ -145,6 +159,12 @@ def parse(docx_path: Path) -> list[dict]:
             append_text(current_item, text)
 
     finalize_item(current_item, items)
+
+    # Split generic "weapons" into melee / ranged
+    for item in items:
+        if item["category"] == "weapons":
+            item["category"] = classify_weapon(item)
+
     return items
 
 

@@ -27,7 +27,11 @@ CATEGORY_LABELS = {
     "staffs": "Staffs",
     "symbols": "Symbols",
     "wands": "Wands",
-    "weapons": "Weapons",
+    "weapons-any": "Weapons (Any)",
+    "weapons-melee": "Weapons (Melee)",
+    "weapons-1h": "Weapons (One-Handed)",
+    "weapons-2h": "Weapons (Two-Handed)",
+    "weapons-ranged": "Weapons (Ranged)",
     "wondrous": "Wondrous Items",
 }
 
@@ -36,14 +40,19 @@ UNIVERSAL = [
     "gloves", "belts", "books", "wondrous",
 ]
 
+WEAPON_ANY  = ["weapons-any", "weapons-melee"]
+WEAPON_1H   = WEAPON_ANY + ["weapons-1h"]
+WEAPON_2H   = WEAPON_ANY + ["weapons-2h"]
+WEAPON_ALL  = WEAPON_ANY + ["weapons-1h", "weapons-2h", "weapons-ranged"]
+
 CLASS_CATEGORIES = {
-    "Barbarian": ["weapons", "armor"] + UNIVERSAL,
-    "Bard":      ["weapons", "armor", "wands", "staffs"] + UNIVERSAL,
-    "Cleric":    ["symbols", "staffs", "armor", "weapons", "shields"] + UNIVERSAL,
-    "Fighter":   ["weapons", "armor", "shields"] + UNIVERSAL,
-    "Paladin":   ["weapons", "armor", "shields"] + UNIVERSAL,
-    "Ranger":    ["weapons", "ammunition", "armor"] + UNIVERSAL,
-    "Rogue":     ["weapons", "armor"] + UNIVERSAL,
+    "Barbarian": WEAPON_2H + ["armor"] + UNIVERSAL,
+    "Bard":      WEAPON_1H + ["weapons-ranged", "armor", "wands", "staffs"] + UNIVERSAL,
+    "Cleric":    WEAPON_1H + ["symbols", "staffs", "armor", "shields"] + UNIVERSAL,
+    "Fighter":   WEAPON_1H + ["armor", "shields"] + UNIVERSAL,
+    "Paladin":   WEAPON_1H + ["armor", "shields"] + UNIVERSAL,
+    "Ranger":    WEAPON_ALL + ["ammunition", "armor"] + UNIVERSAL,
+    "Rogue":     WEAPON_1H + ["weapons-ranged", "armor"] + UNIVERSAL,
     "Sorcerer":  ["wands", "staffs", "armor"] + UNIVERSAL,
     "Wizard":    ["wands", "staffs", "armor", "books"] + UNIVERSAL,
 }

@@ -870,189 +870,189 @@
     },
     {
       "name": "Abandon",
-      "category": "weapons",
+      "category": "weapons-melee",
       "tier": "adventurer",
       "description": "(Melee weapon) You deal +2d6 damage with your first attack each battle using this weapon (champion: +4d6; epic: +4d12).",
       "quirk": "Blurts out obscenities. (For decorum's sake, use euphemisms when speaking in character.)"
     },
     {
       "name": "Bloodthirsty",
-      "category": "weapons",
+      "category": "weapons-any",
       "tier": "adventurer",
       "description": "(Any weapon) When you crit with a natural 20 using this weapon, you deal crit damage instead of normal damage if you hit with this weapon again during your next turn.",
       "quirk": "Has taste for red meat."
     },
     {
       "name": "Certain Pain",
-      "category": "weapons",
+      "category": "weapons-2h",
       "tier": "adventurer",
       "description": "(Two-handed melee weapon - recharge 11+) Before making an attack with this weapon, designate it as a \"pain\" attack. On a hit with that attack, one target takes 10 extra damage. On a miss, you take 10 damage (champion: 25 damage; epic: 60 damage).",
       "quirk": "Fond of gambling."
     },
     {
       "name": "Climactic Shot",
-      "category": "weapons",
+      "category": "weapons-ranged",
       "tier": "adventurer",
       "description": "(Ranged weapon - recharge 6+) When the escalation die is 3+ and you hit with an attack using this weapon, the target takes 10 extra damage (champion: 25 damage; epic: 60 damage).",
       "quirk": "Can't stop checking the weapon and its ammunition."
     },
     {
       "name": "Cruel",
-      "category": "weapons",
+      "category": "weapons-any",
       "tier": "adventurer",
       "description": "(Any weapon - recharge 11+) When damage from this weapon leaves an enemy with 20 hit points or fewer, you deal 5 ongoing damage to it (champion: 40 hp/10 ongoing damage; epic: 80 hp/20 ongoing damage).",
       "quirk": "Tortures flies."
     },
     {
       "name": "Dexterous Parry",
-      "category": "weapons",
+      "category": "weapons-1h",
       "tier": "adventurer",
       "description": "(One-handed melee weapon - recharge 11+) When an enemy you are engaged with hits you while you're wielding this weapon, make a Dexterity check against the attacker's MD. If you succeed, the attack misses instead.",
       "quirk": "Jumpy and suspicious."
     },
     {
       "name": "Distraction",
-      "category": "weapons",
+      "category": "weapons-2h",
       "tier": "adventurer",
       "description": "(Two-handed melee weapon - recharge 11+) When you hit with this weapon, allow one of your allies engaged with that foe to make a basic melee attack against it as a free action.",
       "quirk": "Intrudes on personal space."
     },
     {
       "name": "Flurry",
-      "category": "weapons",
+      "category": "weapons-2h",
       "tier": "adventurer",
       "description": "(Two-handed melee weapon - recharge 11+) When you make a basic attack, make a second basic attack against a different enemy as a free action.",
       "quirk": "Fidgety."
     },
     {
       "name": "Guardian",
-      "category": "weapons",
+      "category": "weapons-1h",
       "tier": "adventurer",
       "description": "(One-handed melee weapon) When you hit with an opportunity attack using this weapon, the target is weakened until the end of that turn (-4 attacks and defenses).",
       "quirk": "Looks serious all the time."
     },
     {
       "name": "Greater Striking",
-      "category": "weapons",
+      "category": "weapons-melee",
       "tier": "adventurer",
       "description": "(Melee weapon) While the escalation die is 3+, you deal +1d8 damage whenever you hit with this weapon (champion: +2d8; epic: +4d8).",
       "quirk": "Favors iron and steel, seeing little beauty in gold or gems."
     },
     {
       "name": "Haughty",
-      "category": "weapons",
+      "category": "weapons-any",
       "tier": "adventurer",
       "description": "(Any weapon) When you hit with an attack using this weapon, if that enemy is the most dangerous foe in the battle (or tied for most dangerous, GM's assessment), you deal +1d4 per tier damage to it (champion: +1d8 per tier; epic: +1d10 per tier).",
       "quirk": "Challenges others to improvised contests."
     },
     {
       "name": "Inimical",
-      "category": "weapons",
+      "category": "weapons-any",
       "tier": "adventurer",
       "description": "(Any weapon) When you hit with this weapon, you can deal +1d10 damage to that enemy (champion: +2d10; epic: +4d10). If you do, you also take that extra damage.",
       "quirk": "Bites nails, or a similar darker habit."
     },
     {
       "name": "Liberation",
-      "category": "weapons",
+      "category": "weapons-melee",
       "tier": "adventurer",
       "description": "(Melee weapon - quick action - recharge 6+) If you have attacked with this weapon this turn, allow an ally to roll a save against an ongoing save ends effect as a free action.",
       "quirk": "Drones on about how healing grace will save all the worlds."
     },
     {
       "name": "Mauling",
-      "category": "weapons",
+      "category": "weapons-2h",
       "tier": "adventurer",
       "description": "(Two-handed melee weapon - move action) You gain a +1 attack bonus to your next attack you make this turn.",
       "quirk": "Yells battle cries during battle."
     },
     {
       "name": "Mighty Swing",
-      "category": "weapons",
+      "category": "weapons-2h",
       "tier": "adventurer",
       "description": "(Two-handed melee weapon - move action) You deal +1d8 damage with your next melee attack with this weapon that hits this turn (champion: +2d8; epic: +4d8). If you miss, you take that damage instead.",
       "quirk": "Tends to break things."
     },
     {
       "name": "No Mercy",
-      "category": "weapons",
+      "category": "weapons-ranged",
       "tier": "adventurer",
       "description": "(Ranged weapon) If your target is attempting to flee from the battle, a natural even hit against it is a critical hit instead.",
       "quirk": "Develops a surprising lip-curl sneer that shows up a bit too often."
     },
     {
       "name": "Protection",
-      "category": "weapons",
+      "category": "weapons-melee",
       "tier": "adventurer",
       "description": "(Melee weapon - recharge 6+) When you make a basic attack with this weapon, gain a +4 bonus to all defenses until the end of your next turn (champion: +5; epic: +6).",
       "quirk": "Has urges to watch over the helpless or innocent."
     },
     {
       "name": "Puissance",
-      "category": "weapons",
+      "category": "weapons-melee",
       "tier": "adventurer",
       "description": "(Melee weapon - recharge 16+) When you make a basic attack with this weapon, make a recharge roll for one power.",
       "quirk": "Tremendous appetite for meat."
     },
     {
       "name": "Steady",
-      "category": "weapons",
+      "category": "weapons-ranged",
       "tier": "adventurer",
       "description": "(Ranged weapon - recharge 11+) Before rolling a ranged attack with this weapon, choose 10 as the natural roll for that attack.",
       "quirk": "Talks too much about the weather."
     },
     {
       "name": "Unstinting Virtue",
-      "category": "weapons",
+      "category": "weapons-melee",
       "tier": "adventurer",
       "description": "(Melee weapon - recharge 11+) When you make a basic attack with this weapon, roll a save against a save ends effect.",
       "quirk": "Insists that all weakness is an illusion."
     },
     {
       "name": "Vanity",
-      "category": "weapons",
+      "category": "weapons-melee",
       "tier": "adventurer",
       "description": "(Melee weapon) When you hit with this weapon, deal +1d6 damage to that enemy if you are the only one engaged with it (champion: +2d6; epic: +4d6).",
       "quirk": "Tells their name (their real one) to everyone."
     },
     {
       "name": "Vengeance",
-      "category": "weapons",
+      "category": "weapons-melee",
       "tier": "adventurer",
       "description": "(Melee weapon) When you hit with this weapon while you are staggered, deal +1d6 damage to that enemy.",
       "quirk": "Quick to take offense."
     },
     {
       "name": "Longbow of Fallen Grace",
-      "category": "weapons",
+      "category": "weapons-ranged",
       "tier": "champion",
       "description": "(+3 longbow - recharge 16+) If your elven grace racial ability roll failed this turn, use the natural result of this bow's attack roll as another elven grace roll, after you see the roll.",
       "quirk": "Complains too often that the glorious centuries of old are gone forever."
     },
     {
       "name": "Mighty Stunning",
-      "category": "weapons",
+      "category": "weapons-1h",
       "tier": "champion",
       "description": "(One-handed blunt 1d6 melee weapon - recharge 16+) When you roll a natural even hit with this weapon and have more hit points than the target, that creature is also stunned until the end of its next turn.",
       "quirk": "Warns of impending doom."
     },
     {
       "name": "Reckless",
-      "category": "weapons",
+      "category": "weapons-melee",
       "tier": "champion",
       "description": "(Melee weapon - recharge 6+) Reroll one of your attack rolls with a +4 bonus. In addition, until the end of the battle, enemies attacking you add the escalation die to their attack roll (no effect if the enemy already adds it for some reason).",
       "quirk": "Low impulse control, particularly when it comes to impulsive movements through doors, onto railings, or over tables."
     },
     {
       "name": "Greatsword of Utter Night",
-      "category": "weapons",
+      "category": "weapons-2h",
       "tier": "epic",
       "description": "(+3 greatsword - recharge 6+) When you hit with this weapon, you spirit away that enemy and yourself to an empty void beyond time where only the two of you face each other for a short time. Neither you nor your foe can move, but you can sure fight. Your enemy acts first, then you, and then you are both spirited back to the real world exactly where you were when the power triggered. Bystanders only see a flash of black.",
       "quirk": "Has disturbing dreams that can't be remembered, or at the very least must not be."
     },
     {
       "name": "Incomparable Axe of Wyrm Chopping",
-      "category": "weapons",
+      "category": "weapons-melee",
       "tier": "epic",
       "description": "(+3 axe) Whenever you attack a dragon with the axe, you deal +40 damage, hit or miss. The GM determines just how broadly the term \"dragon\" applies.",
       "quirk": "Speaks in Draconic, first just curses, but then more and more elements of speech."
