@@ -103,6 +103,14 @@ def apply_class_to_categories():
         else:
             st.session_state[f"cat_{cat}"] = cat in CLASS_CATEGORIES[selected]
 
+def select_all_categories():
+    for cat in all_categories:
+        st.session_state[f"cat_{cat}"] = True
+
+def select_no_categories():
+    for cat in all_categories:
+        st.session_state[f"cat_{cat}"] = False
+
 with st.sidebar:
     st.header("Filters")
 
@@ -122,6 +130,9 @@ with st.sidebar:
     )
 
     st.subheader("Category")
+    btn_col1, btn_col2 = st.columns(2)
+    btn_col1.button("Select All", on_click=select_all_categories, use_container_width=True)
+    btn_col2.button("Select None", on_click=select_no_categories, use_container_width=True)
     selected_categories = []
     for cat in all_categories:
         if st.checkbox(CATEGORY_LABELS[cat], key=f"cat_{cat}"):
