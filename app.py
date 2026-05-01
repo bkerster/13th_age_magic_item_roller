@@ -80,7 +80,7 @@ all_categories = sorted(CATEGORY_LABELS.keys())
 # Initialize category checkbox state once (session state is the single source of truth)
 for _cat in all_categories:
     if f"cat_{_cat}" not in st.session_state:
-        st.session_state[f"cat_{_cat}"] = _cat not in ("chuul", "cursed")
+        st.session_state[f"cat_{_cat}"] = _cat not in ("ammunition", "chuul", "cursed")
 
 # ---------------------------------------------------------------------------
 # Sidebar filters
@@ -90,7 +90,7 @@ def apply_class_to_categories():
     selected = st.session_state.class_selector
     for cat in all_categories:
         if selected == "All Classes":
-            st.session_state[f"cat_{cat}"] = cat not in ("chuul", "cursed")
+            st.session_state[f"cat_{cat}"] = cat not in ("ammunition", "chuul", "cursed")
         else:
             st.session_state[f"cat_{cat}"] = cat in CLASS_CATEGORIES[selected]
 
